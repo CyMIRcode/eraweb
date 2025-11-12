@@ -4,17 +4,17 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: 'Retypeset',
+    title: '**夜航船**',
     // site subtitle
-    subtitle: 'Revive the beauty of typography',
+    subtitle: '一船星辉,半船风雪,满船故事.',
     // site description
-    description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
+    description: '夜航船静态博客',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: true, // true, false
     // author name
-    author: 'radishzz',
+    author: 'Peter',
     // site url
-    url: 'https://retypeset.radishzz.cc',
+    url: 'https://blog.603550.xyz',
     // base path
     // root directory for all pages and assets
     base: '/', // e.g., '/blog', '/docs'
@@ -125,10 +125,10 @@ export const themeConfig: ThemeConfig = {
     verification: {
       // google search console
       // https://search.google.com/search-console
-      google: 'AUCrz5F1e5qbnmKKDXl2Sf8u6y0kOpEO1wLs6HMMmlM',
+      google: '#',
       // bing webmaster tools
       // https://www.bing.com/webmasters
-      bing: '64708CD514011A7965C84DDE1D169F87',
+      bing: '#',
       // yandex webmaster
       // https://webmaster.yandex.com
       yandex: '',
@@ -141,7 +141,7 @@ export const themeConfig: ThemeConfig = {
     googleAnalyticsID: '',
     // umami analytics
     // https://cloud.umami.is
-    umamiAnalyticsID: '520af332-bfb7-4e7c-9386-5f273ee3d697',
+    umamiAnalyticsID: '#',
     // follow verification
     // https://follow.is/
     follow: {
@@ -171,11 +171,11 @@ export const themeConfig: ThemeConfig = {
       },
       {
         name: 'Email',
-        url: 'email@radishzz.cc',
+        url: 'email#603550.yxz',
       },
       // {
       //   name: 'X',
-      //   url: 'https://x.com/radishzz_',
+      //   url: '#',
       // },
     ],
     // year of website start
@@ -187,7 +187,7 @@ export const themeConfig: ThemeConfig = {
   preload: {
     // image hosting url
     // optimize remote images in Markdown files to avoid cumulative layout shift
-    imageHostURL: 'image.radishzz.cc',
+    imageHostURL: '#,
     // custom google analytics js
     // for users who route analytics javascript to a customized domain
     // see https://gist.github.com/xiaopc/0602f06ca465d76bd9efd3dda9393738
@@ -195,7 +195,7 @@ export const themeConfig: ThemeConfig = {
     // custom umami analytics js
     // for users who deploy umami on their own, or route analytics javascript to a customized domain
     // see https://github.com/umami-software/umami/discussions/1026
-    customUmamiAnalyticsJS: 'https://js.radishzz.cc/jquery.min.js',
+    customUmamiAnalyticsJS: '#',
   },
   // PRELOAD SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 }
