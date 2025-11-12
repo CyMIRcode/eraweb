@@ -10,7 +10,7 @@ export const themeConfig: ThemeConfig = {
     // site description
     description: '夜航船静态博客',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
-    i18nTitle: true, // true, false
+    i18nTitle: false, // true, false
     // author name
     author: 'Peter',
     // site url
